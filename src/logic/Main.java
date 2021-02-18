@@ -1,9 +1,14 @@
 package logic;
 
+import java.util.logging.Level;
+import java.util.logging.Logger;
+
 public class Main {
 
 	public static void main(String[] args) {
-		System.out.println("test");
+		
+		
+		Logger.getGlobal().log(Level.INFO, "test");
 
 	}
 
